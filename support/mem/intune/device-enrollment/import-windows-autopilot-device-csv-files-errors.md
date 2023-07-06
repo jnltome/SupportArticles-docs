@@ -8,7 +8,7 @@ ms.reviewer: kaushika
 ---
 # Error 806 or 808 when you import Windows Autopilot device CSV files in Intune
 
-This article helps you fix an issue where you receive the **ZtdDeviceAlreadyAssigned (806)** or **ZtdDeviceAssignedToOtherTenant (808)** error message when you import Windows Autopilot device CSV files in Microsoft Intune.
+This article is applicable for non-Premier customers and helps you fix an issue where you receive the **ZtdDeviceAlreadyAssigned (806)** or **ZtdDeviceAssignedToOtherTenant (808)** error message when you import Windows Autopilot device CSV files in Microsoft Intune.
 
 ## Symptoms
 
@@ -52,6 +52,7 @@ If the device record doesn't exist in Microsoft Store for Business or Intune, yo
   > - The document must be in its original form. Screenshots are not accepted.
   > - The serial number, chassis ID, or other unique identifier must be present in the document. For some vendors, you may have to request additional details about the purchased device to see this information.
   > - Your company name must appear in the document.
+  > - For Premier Support customers Microsoft does no longer require proof of ownership to perform device deregistration. Confirmation that the device is in customer physical possession, for example of a company employee.
 
 - **Diagnostic logs**:
 
